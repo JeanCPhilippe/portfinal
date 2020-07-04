@@ -1,0 +1,74 @@
+
+    html
+    {
+        scroll-behavior: smooth;
+    }
+    body
+    {
+        margin:0;
+    }
+    
+    #menuPort
+    {
+        display:flex;
+        background-color: aqua;
+        margin:0;
+    }
+    #menuPort li
+    {
+        color: darkred;
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+    }
+    #menuPort li:first-child
+    {
+        margin-right: auto;
+    }
+    .Cabeçalho
+    {
+        display: flex;
+        height: 100vh;
+        background-image: url(https://i.pinimg.com/originals/e2/91/3f/e2913fe1d1d4f2127146773be1c23b34.jpg);
+        background-size: 1920px 1080px;
+    }
+    .centralize
+    {
+        margin: auto;
+        text-align: center;
+    }
+    .imagens
+    {
+        width: 15vw;
+        height: 15vw;
+        padding-left: 10px;
+    }
+    .projeto1-3
+    {
+        margin: auto;
+        height: 30vh;
+        padding-left: 15px;
+        background-color: deepskyblue;
+    }
+    .projeto2
+    {
+        margin: auto;
+        height: 30vh;
+        padding-left: 15px;
+        background-color: darkcyan;
+    }
+    
+    .botãoM
+    {
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+        border-color: red;
+    }
+    .footer
+    {
+        background-color: darkslateblue;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
